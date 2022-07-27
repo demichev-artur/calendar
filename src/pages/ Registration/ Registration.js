@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Registration.module.css"
 import media from "../../access/images/calendarBG.png";
 import addIcon from "../../access/icons/addImg.svg";
+import {Link} from "react-router-dom";
 
 const Registration = () => {
     return (
@@ -38,9 +39,9 @@ const Registration = () => {
 
                     <p>Повторите пароль</p>
                     <input type="text" name="" id=""/>
-
-                    <button>СОХРАНИТЬ</button>
-
+                    <Link className={styles.link} to="/calendar">
+                        <button>СОХРАНИТЬ</button>
+                    </Link>
                 </form>
 
             </div>

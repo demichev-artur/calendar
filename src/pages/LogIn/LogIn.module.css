@@ -94,7 +94,7 @@ a{
     border-radius: 8px;
 }
 
-.form_blank span, .form_blank a{
+.form_blank span, .a{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -106,6 +106,10 @@ a{
 }
 .form_blank span{
     margin: 8px 0;
+}
+.link{
+    width: 100%;
+    margin: 0!important;
 }
 form div{
     width: 100%;
@@ -137,4 +141,5 @@ form div{
     opacity: 0.2;
     margin-top: 8px;
     border-radius: 8px;
+
 }

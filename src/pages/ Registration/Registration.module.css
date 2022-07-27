@@ -141,7 +141,10 @@ form div{
     margin-top: 16px;
     border-radius: 8px;
 }
-
+.link{
+    width: 100%;
+    margin: 0!important;
+}
 .add_profile_img{
     display: flex;
     width: 100%;

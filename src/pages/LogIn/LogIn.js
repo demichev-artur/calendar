@@ -1,6 +1,8 @@
 import React from 'react';
 import media from "../../access/images/calendarBG.png";
 import styles from './LogIn.module.css';
+import {Link} from "react-router-dom";
+
 
 const LogIn = () => {
     return (
@@ -16,13 +18,15 @@ const LogIn = () => {
                     <p>Пароль</p>
                     <input type="text" name="" id=""/>
 
-                    <a href="#">Забыли пароль?</a>
+                    <a className={styles.a} href="#">Забыли пароль?</a>
 
-                    <button>ВОЙТИ</button>
+                    <Link className={styles.link} to="/calendar">
+                        <button>ВОЙТИ</button>
+                    </Link>
 
                     <div className={styles.register}>
                         <p className="">У вас нет аккаунта?</p>
-                        <a href="/registration">Регистрация</a>
+                        <Link className={styles.a} to="/registration">Регистрация</Link>
                     </div>
                 </form>
 
