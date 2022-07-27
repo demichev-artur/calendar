@@ -1,0 +1,63 @@
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 0 25px;
+}
+.date_select, .account_items{
+    display: flex;
+    align-items: center;
+}
+.date_select button, .date_select select {
+    height: 35px;
+    width: 115px;
+    box-shadow: 0px 1px 5px rgba(55, 55, 55, 0.17);
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /*text-align: center;*/
+    border: none;
+    color: #2E2E2E;
+
+}
+.date {
+    display: flex;
+    gap: 15px;
+    margin-left: 25px;
+}
+.date p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2E2E2E;
+}
+.header select{
+    padding: 0 15px;
+    margin-left: 8px;
+}
+
+.account_items button{
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    border-radius: 8px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    justify-content: center;
+}
+
+.account_items > img{
+    margin-left: 15px;
+}

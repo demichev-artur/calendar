@@ -5,7 +5,7 @@ import addMark from '../../access/icons/addMarkIcon.svg';
 
 const Sidebar = () => {
     return (
-        <>
+        <div>
             <div className={styles.logo}>
                 <img src={media} alt=""/>
                 <p>Calendar</p>
@@ -42,7 +42,7 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
