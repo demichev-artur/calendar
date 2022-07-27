@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Registration.module.css"
 import media from "../../access/images/calendarBG.png";
+import addIcon from "../../access/icons/addImg.svg";
 
 const Registration = () => {
     return (
@@ -10,14 +11,24 @@ const Registration = () => {
                 <form action="javascript:void(0)">
                     <h1 className={styles.title_blank}>Добро пожаловать!</h1>
 
+                    <div className={styles.add_profile_img}>
+                        <img src={addIcon} alt=""/>
+                        <span>Добавьте фото профиля</span>
+                    </div>
+
                     <p>ФИО</p>
                     <input type="text" name="" id=""/>
 
                     <p>Отдел</p>
-                    <input type="text" name="" id=""/>
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select>
+
 
                     <p>Должность</p>
-                    <input type="text" name="" id=""/>
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select>
 
                     <p>Почта</p>
                     <input type="text" name="" id=""/>
