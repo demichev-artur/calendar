@@ -1,10 +1,12 @@
 .side_bar{
     width: 200px;
+    box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.06);
 }
 .logo{
     box-sizing: border-box;
     background: #4B84F4;
     height: 50px;
+    width: 200px;
     display: flex;
     align-items: center;
     padding: 12px 16px;
@@ -40,4 +42,53 @@
     color: #4B84F4;
     height: 40px;
     width: 100%;
+    margin-bottom: 25px;
+}
+.marks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 0;
+}
+.marks h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4B84F4;
+    margin: 0;
+}
+
+.marks img{
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #4B84F4;
+    border-radius: 6px;
+}
+.marks_item div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+.mark_color {
+    width: 16px;
+    height: 16px;
+    margin: 0!important;
+    border-radius: 4px;
+}
+.marks_item{
+    padding: 0 25px;
+}
+.marks_item div p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2E2E2E;
+    margin-left: 8px;
 }
